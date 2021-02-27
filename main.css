@@ -1,0 +1,93 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	background: #F3F3F3;
+}
+header, .prin, footer {
+	width: 80%;
+	margin: 10px auto;
+	
+}
+.prin {
+	background: #FFFFFF;
+	overflow: hidden;
+	box-sizing: border-box;
+}
+header div h1 {
+	background: #002060;
+	color: white;
+	padding: 10px 0;
+	text-align: center;
+}
+.respo1, .respo2, .respo3{
+	float: left;
+	width: 240px;
+	height: 270px;
+	display: block;
+	border: 1px solid black;
+	border-collapse: collapse;
+	margin:10px 25px;
+}
+footer {
+	clear: both;
+	background: #002c33;
+	padding: 5px 0;
+	text-align: center;
+	color: white;
+	font-weight: bold;
+}
+.titu {
+	background: #0070C0;
+	color: white;
+	text-align: center;
+	border-bottom:1px solid black;
+	border-collapse: collapse;
+	font-size: 16px;
+	padding: 5px;
+}
+.prod {
+	list-style: none;
+	background: #0091A6;
+	border-bottom:1px solid black;
+	width: 100%;
+}
+.prod li{
+	display: inline-block;
+	width:23.6%;
+	border-collapse: collapse;
+
+}
+.prod li a{
+	display: inline-block;
+	text-decoration: none;
+	color: white;
+	padding: 8px 1px;
+	width: 100%;
+	font-size: 12px;
+	text-align: center;
+	border-right: .1px dotted black;
+
+	 
+}
+.prod li a:hover {
+	background: #002c33;
+}
+.cuadros{
+	width: 90%;
+	padding:2.5% ;
+	margin:2.5% ;
+}
+.cuadros input {
+	padding: 4px;
+	width: 100%;
+	box-sizing: border-box;
+	margin-bottom: 5px;
+	font-size: 11px
+}
+.cuadros label{
+	font-size: 12px;
+	display: block;
+	width: 100%;
+}
